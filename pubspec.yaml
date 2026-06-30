@@ -1,0 +1,45 @@
+name: parcel_tracking
+description: "Latelogic — parcel & shipment tracking app."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: ^6.1.2
+
+  # Navigation & context-free helpers
+  get: ^4.6.6
+
+  # Typography
+  google_fonts: ^6.2.1
+
+  # Networking
+  http: ^1.2.2
+
+  # Persistence
+  shared_preferences: ^2.3.2
+
+  # Icons
+  feather_icons: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/couriers/
